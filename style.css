@@ -71,3 +71,43 @@ img {
 .clear {
   clear: both;
 }
+
+/* visualizzazione smartphone  */
+@media screen and (max-width: 419px) {
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+  
+  .row {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 25px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;  
+  }
+
+  img {
+    width: 60%;
+    height: 60%;
+    margin-top: 30px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0px;
+  }
+}
