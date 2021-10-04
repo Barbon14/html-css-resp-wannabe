@@ -75,6 +75,7 @@ img {
 /* visualizzazione smartphone  */
 @media screen and (max-width: 419px) {
   
+  /* imposatzioni generali */
   * {
     box-sizing: border-box;
     margin: 0;
@@ -91,23 +92,37 @@ img {
     padding: 0 25px;
   }
 
-  #lezioni .row>.left,
-  #lezioni .row>.right,
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    width: 100%;  
-  }
-
   img {
     width: 60%;
     height: 60%;
     margin-top: 30px;
   }
 
+  /* sezione lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;  
+  }
+
+  /* sezioni steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;  
+  }
+
+  /* sezione why */
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     margin-top: 0px;
+  }
+
+  #why .row img {
+    padding: 8%;
+  }
+
+  hr {
+  margin-top: 20px;
   }
 }
